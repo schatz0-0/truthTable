@@ -137,18 +137,21 @@ public static void translation(Object[] objects, Map<Object, Integer> map, int i
 }
 ```
 
-3.	结果
+3.结果
+
 a)	
  ![image](https://user-images.githubusercontent.com/54694818/198082142-f5e11472-0c21-41e0-8e03-083c675248a0.png)
 
-
 b)
+
 ![image](https://user-images.githubusercontent.com/54694818/198082163-85036296-5625-41dc-b28e-86781b2dd9fb.png)
 
 c)
+
  ![image](https://user-images.githubusercontent.com/54694818/198082186-06433ffa-a003-491c-951c-29820f8fef3d.png)
 
-4.	选做题二
+4.选做题二
+
 a)	核心代码
 ```
 XYSeries series = new XYSeries("xySeries");
@@ -168,7 +171,8 @@ frame.pack();
 frame.setVisible(true);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 ```
-b)	效果演示
+
+b)效果演示
  ![image](https://user-images.githubusercontent.com/54694818/198082240-401cf45a-25cf-4533-ae30-6f39545c3489.png)
 
 
