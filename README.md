@@ -9,6 +9,7 @@
 
 2.	核心代码段分析
 a)	中缀转后缀，存入栈中
+```
 public static void rpn(Stack<Character> operators, Stack output, String str) {
         char[] chars = str.toCharArray();
         int pre = 0;
@@ -117,8 +118,10 @@ enum Operator {
         return false;
     }
 }
+```
 
 b)	全排列
+```
 public static void translation(Object[] objects, Map<Object, Integer> map, int ind) {
     if(ind == objects.length) {
         allNum(map);
@@ -134,6 +137,7 @@ public static void translation(Object[] objects, Map<Object, Integer> map, int i
         }
     }
 }
+```
 
 3.	结果
 a)	
@@ -148,6 +152,7 @@ c)
 
 4.	选做题二
 a)	核心代码
+```
 XYSeries series = new XYSeries("xySeries");
 for (double x = 0; x < 8; x = x + a) {
     double y = -2 * x * Math.sin(x * x);
@@ -164,6 +169,7 @@ ChartFrame frame = new ChartFrame("", chart);
 frame.pack();
 frame.setVisible(true);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+```
 b)	效果演示
  ![image](https://user-images.githubusercontent.com/54694818/198082240-401cf45a-25cf-4533-ae30-6f39545c3489.png)
 
