@@ -1,14 +1,10 @@
 # truthTable
 真值表计算器
-1.	流程图
+1.流程图
+
   ![image](https://user-images.githubusercontent.com/54694818/198082067-de6a3663-3c68-45be-8298-89e037946abc.png)
-
- 
-	                         图1.1 程序流程图
-
-
-2.	核心代码段分析
-a)	中缀转后缀，存入栈中
+2.核心代码段分析
+	a)中缀转后缀，存入栈中
 ```
 public static void rpn(Stack<Character> operators, Stack output, String str) {
         char[] chars = str.toCharArray();
@@ -120,7 +116,7 @@ enum Operator {
 }
 ```
 
-b)	全排列
+b)全排列
 ```
 public static void translation(Object[] objects, Map<Object, Integer> map, int ind) {
     if(ind == objects.length) {
