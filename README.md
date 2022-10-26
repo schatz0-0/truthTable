@@ -139,7 +139,8 @@ public static void translation(Object[] objects, Map<Object, Integer> map, int i
 
 3.结果
 
-a)	
+a)
+
  ![image](https://user-images.githubusercontent.com/54694818/198082142-f5e11472-0c21-41e0-8e03-083c675248a0.png)
 
 b)
