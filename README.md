@@ -1,5 +1,6 @@
 # truthTable
 真值表计算器
+
 1.流程图
 
   ![image](https://user-images.githubusercontent.com/54694818/198082067-de6a3663-3c68-45be-8298-89e037946abc.png)
